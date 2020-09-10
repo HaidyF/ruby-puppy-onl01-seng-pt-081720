@@ -26,7 +26,7 @@ attr_accessor :name
 
   def save
   @@all<< self
-  self
+    self
   end
 
 end
